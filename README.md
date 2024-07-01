@@ -1,4 +1,4 @@
-# Emily Gorial's Website
+# :wave: Hey, I'm Emily 
 
 
 ### Hello! My name is Emily Gorial, I am going into my fourth year at UCSD as a Computer Science Major. 
