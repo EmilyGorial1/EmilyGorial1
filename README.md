@@ -1,11 +1,13 @@
 <h1 align="center">Hey 👋, I'm Emily</h1>
 <h3 align="center">I am going into my fourth year at UCSD as a Computer Science Major. </h3>
 
-- 🔭 I’m currently working on **the Hate Speech Detection Project and the Interviews project**
+🔭 I’m currently working on **the Hate Speech Detection Project and the Interviews project**
 
-- 📫 How to reach me **emgorial@ucsd.edu OR emilygorial5@gmail.com**
+:file_folder: Projects I worked on: 
 
-- ⚡ Fun fact **I grew up in San Diego!**
+📫 How to reach me **emgorial@ucsd.edu OR emilygorial5@gmail.com**
+
+⚡ Fun fact **I grew up in San Diego!**
 
 <h3 align="left">Connect with me: www.linkedin.com/in/emily-gorial-938612242 </h3>
 <p align="left">
