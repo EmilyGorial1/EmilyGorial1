@@ -2,9 +2,8 @@
 Enhance your productivity by keeping track of your progress
 <br>
 
-<img src = "https://raw.githubusercontent.com/EmilyGorial1/EmilyGorial1/main/devjournal.png" width="200">
+<img src = "https://raw.githubusercontent.com/EmilyGorial1/EmilyGorial1/main/devjournal.png" height="200">
 
-![devjournal](https://github.com/user-attachments/assets/633905ad-53b4-4b5b-be62-a9c5069691fe)
 
 <br>
 
