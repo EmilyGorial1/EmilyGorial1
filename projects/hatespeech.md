@@ -2,7 +2,7 @@
 Testing the current Hate-Speech Model
 <br>
 
-![hatespeech](https://github.com/user-attachments/assets/ff09fae8-e9bd-4473-ba55-4075709bc4ae)
+<img src = "https://raw.githubusercontent.com/EmilyGorial1/EmilyGorial1/main/hatespeech.png" height="200">
 
 <br>
 
