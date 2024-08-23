@@ -2,7 +2,7 @@
 
 <br>
 
-<img src = "https://raw.githubusercontent.com/EmilyGorial1/EmilyGorial1/main/robloxsafety.png" height="200">
+<img src = "https://raw.githubusercontent.com/EmilyGorial1/EmilyGorial1/main/robloxsafety.jpeg" height="200">
 
 <br>
 
