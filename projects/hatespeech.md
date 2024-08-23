@@ -2,7 +2,8 @@
 Testing the current Hate-Speech Model
 <br>
 
-<img src="https://github.com/tobwil/markdown_website/assets/72387477/2b1fc372-f8c5-4fc8-af4f-b1fa73a03f81" height="200">
+![hatespeech](https://github.com/user-attachments/assets/ff09fae8-e9bd-4473-ba55-4075709bc4ae)
+
 <br>
 
 ## Methods
