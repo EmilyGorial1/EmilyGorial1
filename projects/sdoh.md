@@ -1,7 +1,7 @@
 # Determining if Social Determinants of Health affect Asthma outcomes
 <br>
 
-<img src = "https://raw.githubusercontent.com/EmilyGorial1/EmilyGorial1/main/sdoh3.png">
+<img src = "https://raw.githubusercontent.com/EmilyGorial1/EmilyGorial1/main/sdoh3.png" height= "200">
 
 <br>
 
