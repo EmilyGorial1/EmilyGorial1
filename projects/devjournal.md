@@ -3,8 +3,8 @@ Enhance your productivity by keeping track of your progress
 <br>
 
 
+![devjournal](https://github.com/user-attachments/assets/633905ad-53b4-4b5b-be62-a9c5069691fe)
 
-<img src='devjournal.png' height="200">
 <br>
 
 ## Top 3 Features
