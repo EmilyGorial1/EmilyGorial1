@@ -145,94 +145,63 @@ a:hover {
   <script>
       // const postsList = document.getElementById('posts-list');
     // projectsList.innerHTML = '';
+ 
+ 
     projectsList = document.getElementById('projects-list');
-    const converter = new showdown.Converter({
-      simpleLineBreaks: true,
-      strikethrough: true,
-      tables: true,
-    });
-    const baseUrl = "https://api.github.com/repos/EmilyGorial1/EmilyGorial1/contents/";
-    const folders = ['projects', 'listening'];
+const converter = new showdown.Converter({
+  simpleLineBreaks: true,
+  strikethrough: true,
+  tables: true,
+});
+const baseUrl = "https://api.github.com/repos/EmilyGorial1/EmilyGorial1/contents/";
+const folders = ['projects', 'listening'];
 
-    async function fetchMarkdownFiles(folder) {
-      
-      const response = await fetch(`${baseUrl}${folder}`);
-      const files = await response.json();
-      function shuffleArray(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-              const j = Math.floor(Math.random() * (i + 1));
-              [array[i], array[j]] = [array[j], array[i]];
-          }
-          return array;
-      }
+async function fetchMarkdownFiles(folder) {
+  const response = await fetch(`${baseUrl}${folder}`);
+  const files = await response.json();
 
-      const randomFiles = shuffleArray(files);
-      // const maxVisibleItems = folder === 'posts' ? 3 : folder === 'projects' ? 5 : Infinity;
-      let itemCount = 0;
-
-      for (const file of randomFiles) {
-        if (file.name.endsWith('.md')) {
-          const fileRes = await fetch(file.download_url);
-          const mdContent = await fileRes.text();
-          const mdWithLineBreaks = mdContent.replace(/\n/g, '  \n');
-          const htmlContent = converter.makeHtml(mdWithLineBreaks);
-
-          const title = mdContent.split('\n')[0].replace(/^#+\s*/, '');
-          const contentWithoutTitle = mdContent.replace(/^.+\n/, '');
-          const htmlContentWithoutTitle = converter.makeHtml(contentWithoutTitle);
-          const fileCard = `
-              <div class="markdown-container bg-white p-4 rounded shadow-md transition-colors duration-200 hover:bg-gray-100 w-200 h-200 overflow-auto flex-none mx-2 my-2">
-                <h2 class="text-xl font-semibold mb-2">${title}</h2>
-                <div>${htmlContentWithoutTitle}</div>
-              </div>
-          `;
-
-          if (itemCount) {
-            if (folder === 'posts') {
-              postsList.innerHTML += fileCard;
-            } else if (folder === 'projects') {
-              projectsList.innerHTML += fileCard;
-            } else if (folder === 'listening') {
-              document.getElementById('listening-list').innerHTML += fileCard;
-            }
-          } else {
-            if (folder !== 'listening') {
-              const hiddenCard = `<div class='hidden'>${fileCard}</div>`;
-              if (folder === 'posts') {
-                postsList.innerHTML += hiddenCard;
-              } else if (folder === 'projects') {
-                projectsList.innerHTML += hiddenCard;
-              }
-            }
-          }
-          itemCount++;
-        }
-      }
-
-    if (folder !== 'listening' && itemCount > maxVisibleItems) {
-      const container = folder === 'posts' ? postsList : projectsList;
-      createShowMoreButton(container);
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
     }
+    return array;
   }
 
-        const createShowMoreButton = (container) => {
-        const button = document.createElement('button');
-        button.innerHTML = '➕ Show More';
-        button.classList.add('show-more');
-        button.style.color = 'gray'; // Set the text color to gray
-        button.style.marginTop = '10px'; // Add some margin on top
-        container.after(button);
+  const randomFiles = shuffleArray(files);
 
-        button.addEventListener('click', () => {
-            const hiddenItems = container.querySelectorAll('.hidden');
-            hiddenItems.forEach(item => item.classList.remove('hidden'));
-            button.remove();
-        });
-     };
+  for (const file of randomFiles) {
+    if (file.name.endsWith('.md')) {
+      const fileRes = await fetch(file.download_url);
+      const mdContent = await fileRes.text();
+      const mdWithLineBreaks = mdContent.replace(/\n/g, '  \n');
+      const htmlContent = converter.makeHtml(mdWithLineBreaks);
 
-    folders.forEach(folder => {
-        fetchMarkdownFiles(folder);
-    });
+      const title = mdContent.split('\n')[0].replace(/^#+\s*/, '');
+      const contentWithoutTitle = mdContent.replace(/^.+\n/, '');
+      const htmlContentWithoutTitle = converter.makeHtml(contentWithoutTitle);
+      const fileCard = `
+        <div class="markdown-container bg-white p-4 rounded shadow-md transition-colors duration-200 hover:bg-gray-100 w-200 h-200 overflow-auto flex-none mx-2 my-2">
+          <h2 class="text-xl font-semibold mb-2">${title}</h2>
+          <div>${htmlContentWithoutTitle}</div>
+        </div>
+      `;
+
+      // Add the fileCard to the appropriate list
+      if (folder === 'projects') {
+        projectsList.innerHTML += fileCard;
+      } else if (folder === 'listening') {
+        document.getElementById('listening-list').innerHTML += fileCard;
+      }
+    }
+  }
+}
+
+folders.forEach(folder => {
+  fetchMarkdownFiles(folder);
+});
+
+
   </script>
   <script>
     particlesJS('particles-js', {

@@ -2,7 +2,9 @@
 Enhance your productivity by keeping track of your progress
 <br>
 
-<img src="" height="200">
+
+
+<img src='devjournal.png' height="200">
 <br>
 
 ## Top 3 Features
