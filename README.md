@@ -1,6 +1,6 @@
 **Hey :wave:, I'm Emily**
 
-***I am going into my fourth year at UCSD as a Computer Science Major.
+***I am going into my fourth year at UCSD as a Computer Science Major.***
 
 :telescope: I'm currently working on the **Hate Speech Detection Project**
 
