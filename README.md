@@ -15,13 +15,13 @@
 **Connect with me: https://www.linkedin.com/in/emilygorial/**
 
 **Languages and Tools:** 
-<img src= https://github.com/devicons/devicon/blob/master/icons/css3/css3-original-wordmark.svg width="40" height="40"/>&nbsp
-<img src= https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg width="40" height="40"/>&nbsp
-<img src= https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg width="40" height="40"/>&nbsp
-<img src= https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original-wordmark.svg width="40" height="40"/>&nbsp
-<img src= https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg width="40" height="40"/>&nbsp
-<img src= https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg width="40" height="40"/>&nbsp
-<img src= https://github.com/devicons/devicon/blob/master/icons/puppeteer/puppeteer-original.svg width="40" height="40"/>&nbsp
+<img src= https://github.com/devicons/devicon/blob/master/icons/css3/css3-original-wordmark.svg width="40" height="40"/>
+<img src= https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg width="40" height="40"/>
+<img src= https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg width="40" height="40"/>
+<img src= https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original-wordmark.svg width="40" height="40"/>
+<img src= https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg width="40" height="40"/>
+<img src= https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg width="40" height="40"/>
+<img src= https://github.com/devicons/devicon/blob/master/icons/puppeteer/puppeteer-original.svg width="40" height="40"/>
 
 
 
