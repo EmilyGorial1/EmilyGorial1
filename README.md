@@ -16,7 +16,6 @@
 
 **Languages and Tools:** 
 
-
 <img src= https://github.com/devicons/devicon/blob/master/icons/css3/css3-original-wordmark.svg width="40" height="40"/>
 <img src= https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg width="40" height="40"/>
 <img src= https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg width="40" height="40"/>
