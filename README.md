@@ -1,4 +1,4 @@
-**Hi, I'm Emily**
+**Hi, I'm Emily!**
 
 ***I am a recent Computer Science graduate from UCSD***
 
