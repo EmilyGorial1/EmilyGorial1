@@ -1,10 +1,10 @@
-**Hey :wave:, I'm Emily**
+**Hi, I'm Emily**
 
-***I am going into my fourth year at UCSD as a Computer Science Major.***
+***I am a recent Computer Science graduate from UCSD***
 
-:telescope: I'm currently working on the **Hate Speech Detection Project**
 
 :file_folder: Projects I worked on:
+
 
 * 📓 **Developer Journal:** Worked together with my group of 11 software engineers to create a web application for software developers to keep track of their progress. I worked a lot with the styling, utilizing Figma and CSS to style the website as desired. I also worked on testing the software using E2E as well as unit tests to ensure everything runs properly.
 * 🎮 **Analyzing Safety Concerns on Roblox:** Worked collaboratively with my research group of 4 to gather Reddit data pertaining to children gaming on Roblox using a web-scraping script. We utilized NLP to clean text data from 12155 Reddit posts and prepare for further analyzation using Python. We then used Qualtrics to create a survey whic was later deployed on Prolific to confirm the parental concerns found by our analysis. I also created high-quality visualizations for the 100+ survey responses using libraries such as NLTK, Seaborn, and Matplotlib. Finally, we produced a paper, written in LaTex, as Early Research Scholars Program (ERSP) participants.
